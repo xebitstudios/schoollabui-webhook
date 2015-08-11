@@ -12,7 +12,7 @@ app.get('/', function(req, res) {
 });
 
 app.post('/webhook', function(req, res) {
-	// We'll add this next
+	console.log(req.body);
 });
 
 app.listen(port);
