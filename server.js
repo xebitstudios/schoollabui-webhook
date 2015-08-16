@@ -3,7 +3,7 @@ var app = express();
 
 var bodyParser = require('body-parser');
 
-var port = process.env.PORT || 8082;
+var port = process.env.PORT || 8082; // this is the port of the webhook 
 
 app.use(bodyParser.json());
 
